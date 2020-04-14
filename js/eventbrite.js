@@ -1,7 +1,8 @@
 class EventBrite{
     // Constructor
     constructor(){
-        this.auth_token = 'MDFPVYFQE4LNCTVE7V6E';
+        const key = config.MY_KEY;
+        this.auth_token = key;
     }
 
     // Fetch the categories for <select>.
